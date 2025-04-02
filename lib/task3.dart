@@ -16,7 +16,7 @@ class ImageScreen extends StatelessWidget {
         itemCount: 100,
         itemBuilder:
             (context, index) => Image.network(
-              "https://3.hdqwalls.com/wallpapers/skye-united-kingdom-8k-yh.jpg",
+              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKItMltUGbcNq880aED2fF4jOYFueSOgea0A&s",
               errorBuilder:
                   (context, error, stackTrace) => CircularProgressIndicator(
                     color: Colors.white,
